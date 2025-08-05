@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - She Can Foundation</title>
+  <link rel="stylesheet" href="login.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  
+  <div class="login-container">
+    <!-- Header inside card -->
+    <div class="login-header">
+      <h1 class="foundation-name">She Can Foundation</h1>
+    </div>
+
+    <h2 class="login-title">Login</h2>
+    <form class="login-form">
+      <!-- Email Field -->
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="email" placeholder="Email Address" required>
+      </div>
+
+      <!-- Password Field -->
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" id="password" placeholder="Password" required>
+        <i class="fas fa-eye toggle-password" id="togglePassword"></i>
+      </div>
+
+      <!-- Login Button -->
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+
+    <!-- Register link -->
+    <p class="register-text">
+      Haven't registered yet? 
+      <a href="register.html" class="register-link">Register</a>
+    </p>
+  </div>
+
+<script type="module" src="login.js"></script>
+</body>
+</html>

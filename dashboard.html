@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - She Can Foundation</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="dashboard-header">
+    <h1>She Can Foundation - Intern Dashboard</h1>
+  </header>
+
+  <!-- Dashboard Content -->
+  <main class="dashboard-container">
+    <!-- Profile Info -->
+    <section class="info-section">
+      <h2>Welcome, <span id="internName">Intern Name</span></h2>
+      <p><strong>Referral Code:</strong> <span id="referralCode"></span></p>
+      <p><strong>Total Donations Raised:</strong> ₹<span id="donationsRaised"></span></p>
+    </section>
+
+    <!-- Rewards Section -->
+    <section class="rewards-section">
+      <h3>Your Rewards</h3>
+      <div class="rewards-grid">
+        <div class="reward-card bronze">
+          <h4>Bronze Badge</h4>
+          <p>For raising ₹500+</p>
+        </div>
+        <div class="reward-card silver">
+          <h4>Silver Badge</h4>
+          <p>For raising ₹1000+</p>
+        </div>
+        <div class="reward-card gold">
+          <h4>Gold Badge</h4>
+          <p>For raising ₹5000+</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5dc; /* Beige */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Register Container */
+.register-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 380px;
+  animation: fadeIn 1s ease-in;
+}
+
+/* Header inside card */
+.register-header {
+  background-color: #b22222;
+  padding: 15px;
+  border-radius: 12px 12px 0 0;
+  margin: -30px -30px 20px;
+}
+.foundation-name {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Title */
+.register-title {
+  color: #b22222;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Form */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.input-group i {
+  position: absolute;
+  font-size: 1.2rem;
+  color: #b22222;
+}
+.input-group i.fas.fa-user,
+.input-group i.fas.fa-envelope,
+.input-group i.fas.fa-lock {
+  left: 12px;
+}
+.input-group input {
+  width: 100%;
+  padding: 12px 40px;
+  border: 2px solid #b22222;
+  border-radius: 25px;
+  outline: none;
+  font-size: 1rem;
+}
+.input-group input:focus {
+  border-color: #d03b3b;
+}
+/* Eye icons */
+.toggle-password {
+  right: 12px;
+  position: absolute;
+  cursor: pointer;
+  color: #b22222;
+}
+
+/* Button */
+.register-btn {
+  background-color: #b22222;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.register-btn:hover {
+  background-color: #fff;
+  color: #b22222;
+  border: 2px solid #b22222;
+}
+
+/* Login link */
+.login-text {
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+.login-link {
+  color: #b22222;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 4px;
+}
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

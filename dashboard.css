@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5dc; /* Beige */
+  color: #333;
+}
+
+/* Header */
+.dashboard-header {
+  background-color: #b22222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Container */
+.dashboard-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Info Section */
+.info-section {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.info-section h2 {
+  color: #b22222;
+}
+.info-section p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+/* Rewards Section */
+.rewards-section {
+  text-align: center;
+}
+.rewards-section h3 {
+  color: #b22222;
+  margin-bottom: 20px;
+}
+.rewards-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.reward-card {
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.reward-card h4 {
+  margin-bottom: 10px;
+}
+.reward-card p {
+  font-size: 0.9rem;
+}
+/* Colors for badges */
+.bronze {
+  background: #cd7f32;
+}
+.silver {
+  background: #c0c0c0;
+  color: #333;
+}
+.gold {
+  background: #ffd700;
+  color: #333;
+}
